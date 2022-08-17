@@ -1,0 +1,12 @@
+{
+  "workspace": {
+    "workspaceConfig": "angular.json",
+    "workspaceTsConfig": "tsconfig.json",
+    "libsFolder": "projects"
+  },
+  "entityRelations": {
+    "smartComponent": {
+      "client": "CONSTRUCTOR"
+    }
+  }
+}
