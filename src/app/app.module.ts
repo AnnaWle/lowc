@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -6,7 +7,12 @@ import { EmployeeListComponentModule } from './employees/ui/employee-list/employ
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, EmployeeListComponentModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    EmployeeListComponentModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
