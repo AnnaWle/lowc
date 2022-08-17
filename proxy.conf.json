@@ -1,0 +1,8 @@
+{
+  "/assets/data/*": {
+    "target": "https://lowgular.io",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
