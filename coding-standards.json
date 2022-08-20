@@ -6,7 +6,7 @@
   },
   "entityRelations": {
     "smartComponent": {
-      "client": "CONSTRUCTOR"
+      "httpClient": "CONSTRUCTOR"
     }
   }
 }
