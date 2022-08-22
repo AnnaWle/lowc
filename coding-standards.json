@@ -4,6 +4,15 @@
     "workspaceTsConfig": "tsconfig.json",
     "libsFolder": "projects"
   },
+  "entities": {
+    "smartComponent": {
+      "id": "smartComponent",
+      "type": "ANGULAR",
+      "suffix": "Component",
+      "folder": "ui/$name$",
+      "insideOf": "App"
+    }
+  },
   "entityRelations": {
     "smartComponent": {
       "httpClient": "CONSTRUCTOR"
