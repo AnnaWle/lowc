@@ -11,10 +11,28 @@
       "suffix": "Component",
       "folder": "ui/$name$",
       "insideOf": "App"
+    },
+    "dataService": {
+      "id": "dataService",
+      "type": "SERVICE",
+      "suffix": "Service",
+      "folder": "services",
+      "insideOf": "App"
+    },
+    "dto": {
+      "id": "dto",
+      "type": "DATA_STRUCTURE",
+      "suffix": "Model",
+      "folder": "model",
+      "insideOf": "App"
     }
   },
   "entityRelations": {
     "smartComponent": {
+      "httpClient": "CONSTRUCTOR",
+      "dataService": "CONSTRUCTOR"
+    },
+    "dataService": {
       "httpClient": "CONSTRUCTOR"
     }
   }
