@@ -4,7 +4,7 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Employee } from '../../model/employee';
+import { EmployeeModel } from '../../model/employee.model';
 
 @Component({
   selector: 'employee-list',
@@ -13,5 +13,5 @@ import { Employee } from '../../model/employee';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EmployeeListComponent {
-  data$: Observable<Employee[] | null> = of(null);
+  data$: Observable<EmployeeModel[] | null> = of(null);
 }
