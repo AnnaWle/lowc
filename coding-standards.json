@@ -19,8 +19,8 @@
       "folder": "services",
       "insideOf": "App"
     },
-    "dto": {
-      "id": "dto",
+    "model": {
+      "id": "model",
       "type": "DATA_STRUCTURE",
       "suffix": "Model",
       "folder": "model",
