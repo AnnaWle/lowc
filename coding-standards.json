@@ -5,12 +5,18 @@
     "libsFolder": "projects"
   },
   "entities": {
-    "smartComponent": {
-      "id": "smartComponent",
-      "type": "ANGULAR",
+    "component": {
+      "id": "component",
+      "type": "ANGULAR_COMPONENT",
       "suffix": "Component",
       "folder": "ui/$name$",
-      "insideOf": "App"
+      "insideOf": "App",
+      "config": {
+        "stylesExtension": "none",
+        "viewEncapsulation": "Emulated",
+        "selector": "generated",
+        "changeDetectionStrategy": "OnPush"
+      }
     },
     "dataService": {
       "id": "dataService",
@@ -24,6 +30,13 @@
       "type": "DATA_STRUCTURE",
       "suffix": "Model",
       "folder": "model",
+      "insideOf": "App"
+    },
+    "response": {
+      "id": "response",
+      "type": "DATA_STRUCTURE",
+      "suffix": "Response",
+      "folder": "services",
       "insideOf": "App"
     }
   },
