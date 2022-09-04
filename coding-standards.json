@@ -41,12 +41,21 @@
     }
   },
   "entityRelations": {
-    "smartComponent": {
+    "component": {
       "httpClient": "CONSTRUCTOR",
-      "dataService": "CONSTRUCTOR"
+      "dataService": "CONSTRUCTOR",
+      "component": "HTML"
     },
     "dataService": {
+      "model": "PARAMETER_AND_RETURN",
+      "response": "PARAMETER_AND_RETURN",
       "httpClient": "CONSTRUCTOR"
+    },
+    "model": {
+      "model": "PROPERTY"
+    },
+    "response": {
+      "response": "PROPERTY"
     }
   }
 }
