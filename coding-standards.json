@@ -20,7 +20,7 @@
     },
     "dataService": {
       "id": "dataService",
-      "type": "SERVICE",
+      "type": "ANGULAR_SERVICE",
       "suffix": "Service",
       "folder": "services",
       "insideOf": "App"
