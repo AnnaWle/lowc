@@ -40,9 +40,22 @@
       "insideOf": "App"
     }
   },
+  "external": {
+    "httpClient": {
+      "id": "httpClient",
+      "type": "HttpClient",
+      "module": "@angular/common/http"
+    },
+    "activatedRoute": {
+      "id": "activatedRoute",
+      "type": "ActivatedRoute",
+      "module": "@angular/router"
+    }
+  },
   "entityRelations": {
     "component": {
       "httpClient": "CONSTRUCTOR",
+      "activatedRoute": "CONSTRUCTOR",
       "dataService": "CONSTRUCTOR",
       "component": "HTML"
     },
