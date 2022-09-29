@@ -54,21 +54,22 @@
   },
   "entityRelations": {
     "component": {
-      "httpClient": "CONSTRUCTOR",
-      "activatedRoute": "CONSTRUCTOR",
-      "dataService": "CONSTRUCTOR",
-      "component": "HTML"
+      "httpClient": ["CONSTRUCTOR"],
+      "activatedRoute": ["CONSTRUCTOR"],
+      "dataService": ["CONSTRUCTOR"],
+      "component": ["HTML"],
+      "model": ["PROPERTY"]
     },
     "dataService": {
-      "model": "PARAMETER_AND_RETURN",
-      "response": "PARAMETER_AND_RETURN",
-      "httpClient": "CONSTRUCTOR"
+      "model": ["PARAMETER", "RETURN"],
+      "response": ["PARAMETER", "RETURN"],
+      "httpClient": ["CONSTRUCTOR"]
     },
     "model": {
-      "model": "PROPERTY"
+      "model": ["PROPERTY"]
     },
     "response": {
-      "response": "PROPERTY"
+      "response": ["PROPERTY"]
     }
   }
 }
